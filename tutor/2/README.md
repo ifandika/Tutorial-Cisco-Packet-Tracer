@@ -22,6 +22,23 @@ ISP(config)#
 ```
 Untuk merubah nama hostname.
 
+**3. end**
+```Txt
+Router(config)# end
+//Contoh
+Router(config)# end
+Router#
+```
+Keluar dari mode **Global Configuration**.
+
+**4. show running-config**
+```Txt
+Router# show running-config
+//Contoh
+Router# show running-config
+...
+```
+
 ### Konfigurasi Interface
 **1. interface**
 ```Txt
@@ -63,8 +80,34 @@ Router(config)#
 ```
 Keluar dari mode ***Global Configuration*** pada sebuah interface.
 
+### Konfigurasi Routing Statis
+Konfigurasi ***static route*** pada sebuah interface, untuk perintah routing **ip route**.
+```Txt
+Router(config)# ip route "prefix|ip_network" "netmask" "ip_address"
+//Contoh
+Router(config)# ip route 192.168.1.0 255.255.0.0 10.10.10.2
+```
 
-
-
+### Konfigurasi Routing Dinamis
+Konfigurasi ***dynamic route*** pada sebuah interface, untuk perintah routing **route rip**.
+```Txt
+Router(config)# router rip
+Router(config-router)# version "1|2"
+Router(config-router)# network "ip_address|ip_network"
+Router(config-router)# no auto-summary
+//Contoh
+Router(config)# router rip
+Router(config-router)# version 1 //Pilih versi RIP v1 atau v2
+Router(config-router)# network 192.168.10.0 //IP Network
+Router(config-router)# no auto-summary
+Router(config-router)# end
+Router(config) exit
+Router# show running-config
+router rip
+version 2
+network 10.0.0.0
+network 192.168.1.0
+no auto-summary
+```
 
 
