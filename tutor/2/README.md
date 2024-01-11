@@ -28,32 +28,40 @@ Untuk merubah nama hostname.
 Router(config)# interface "interface|no/no"
 //Contoh
 Router(config)# interface fa0/0 //Interface FastEthernet
+Router(config-if)#
 Router(config)# interface gig0/0 //Interface GigabitEthernet
+Router(config-if)#
 Router(config)# interface gig0/8 //GigabitEthernet Untuk WAN (gig0/8)
+Router(config-if)#
 ```
 Masuk ke interface.
 
 **2. ip address**
 ```Txt
-Router(config)# ip address "ip_address" "netmask"
+Router(config-if)# ip address "ip_address" "netmask"
 //Contoh
 Router(config)# interface fa0/0
-Router(config)# ip address 192.168.10.10 255.255.255.0
+Router(config-if)# ip address 192.168.10.10 255.255.255.0
 ```
 
 **3. no shutdown**
 ```Txt
-Router(config)# no shutdown
+Router(config-if)# no shutdown
 //Contoh
 Router(config)# interface fa0/1
-Router(config)# ip address 192.168.10.10 255.255.255.0
-Router(config)# no shutdown
+Router(config-if)# ip address 192.168.10.10 255.255.255.0
+Router(config-if)# no shutdown
 ```
 Menghidupkan interface itu, bawaan Cisco interface masih mati maka perlu dihidupkan manual.
 
-
-
-
+**4. exit**
+```Txt
+Router(config-if)# exit
+//Contoh
+Router(config-if)# exit
+Router(config)#
+```
+Keluar dari mode ***Global Configuration*** pada sebuah interface.
 
 
 
