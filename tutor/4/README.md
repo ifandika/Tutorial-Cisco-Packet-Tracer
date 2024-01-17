@@ -140,5 +140,5 @@ Request timed out.
 Ping statistics for 10.10.1.2:
     Packets: Sent = 3, Received = 0, Lost = 3 (100% loss),
 ```
-Untuk hasil pengujian jika menggunakan simple PDU.
+Untuk hasil pengujian jika menggunakan simple PDU.  
 ![img](resource/img-2.png)
