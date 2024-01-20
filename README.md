@@ -1,4 +1,6 @@
 ## Tutorial Cisco Packect Tracer
+![Img](resource/img-1.jpeg)
+
 Tutorial konfigurasi, penggunaan pada Cisco Packet Tracer.
 
 ## Tutorial
