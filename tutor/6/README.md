@@ -141,7 +141,7 @@ Lalu pada PC2 & PC3 set IP DHCP.
 #### PC3
 ![Img](resource/img-6.png)
 
-#### Pengujian Sebelum Routing
+### Pengujian Sebelum Routing
 Pengujian dengan Ping atau simple PDU sebelum dilakukan Routing.  
 **PC0**
 
@@ -241,7 +241,7 @@ Ping statistics for 30.40.50.1:
 
 ![Img](resource/img-7.png)
 
-#### Konfigurasi Routing Statik
+### Konfigurasi Routing Statik
 Konfigurasi Routing pada **Router 0**, maka IP Network yang dimasukan:
 
 - IP Network Antara Router 0 dan Router 1
@@ -274,7 +274,7 @@ Untuk hasil konfigurasi bisa dilihat pada menu Static.
 
 ![Img](resource/img-10.png)
 
-#### Pengujian Setelah Routing Statik
+### Pengujian Setelah Routing Statik
 Pengujian dengan Ping.
 
 **PC1**
