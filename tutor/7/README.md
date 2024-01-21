@@ -405,4 +405,4 @@ Approximate round trip times in milli-seconds:
 ![Img](resource/img-7.png)
 
 ### Download File CPT(Cisco Packet Tracer)
-#### [Download File](resource/2024_Ifandika_CPT-Dynamic-Routing-RIP.pkt)
+#### [Download File](https://github.com/ifandika/Tutorial-Cisco-Packet-Tracer/blob/master/tutor/7/resource/2024_Ifandika_CPT-Dynamic-Routing-RIP.pkt)
