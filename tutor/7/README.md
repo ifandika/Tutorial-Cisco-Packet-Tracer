@@ -4,12 +4,9 @@
 RIP (Routing Information Protocol) adalah protokol routing dinamis. Protokol ini menggunakan algoritma Distance – Vector Routing. Protokol RIP memperbarui tabel routing berdasarkan router yang terhubung langsung, kemudian router selanjutnya akan memberikan informasi mengenai router selanjutnya yang terhubung dengan router tersebut. Informasi yang ditukarkan oleh RIP adalah Host, Network, Subnet, rute default.
 
 ### Topologi Sederhana Untuk Routing Dinamis (RIP)
-
-
-
-### Konfigurasi IP Pada Setiap Router
 ![Img](resource/img-5.png)
 
+### Konfigurasi IP Pada Setiap Router
 #### [Router 0]
 Konfigurasi IP pada Port Fa0/1
 ```Txt
