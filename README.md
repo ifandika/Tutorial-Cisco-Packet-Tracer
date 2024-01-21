@@ -10,7 +10,7 @@ Tutorial konfigurasi, penggunaan pada Cisco Packet Tracer.
 4. [Konfigurasi VLAN](tutor/4/README.md)
 5. [Jenis Adapter Router](tutor/5/README.md)
 6. [Konfigurasi Routing Statis](tutor/6/README.md)
-7. [Konfigurasi Routing Dinamis](tutor/7/README.md)
+7. [Konfigurasi Routing Dinamis(RIP)](tutor/7/README.md)
 
 
 
